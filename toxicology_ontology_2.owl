@@ -1,0 +1,332 @@
+Prefix(:=<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology>
+Import(<http://purl.obolibrary.org/obo/uberon/releases/2017-10-28/uberon.owl>)
+
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000000>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000002>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000003>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000004>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000005>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000006>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000007>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000008>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000009>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000010>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000011>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000012>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000013>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000014>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000018>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000019>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000020>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000022>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000023>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000024>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000025>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000026>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000027>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000028>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000029>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000030>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000031>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000032>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000033>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000034>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000035>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000036>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000038>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000039>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000040>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000043>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000044>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000045>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050>))
+Declaration(Class(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053>))
+Declaration(ObjectProperty(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000051>))
+Declaration(ObjectProperty(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000052>))
+Declaration(ObjectProperty(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000054>))
+Declaration(ObjectProperty(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000055>))
+Declaration(AnnotationProperty(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017>))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017> (definition)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017> "definition"@en)
+
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000051> (abnormality_of)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000051> "abnormality_of"@en)
+
+# Object Property: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000052> (abnormal_persistence_of)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000052> "abnormal_persistence_of"@en)
+
+# Object Property: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000054> (absence_of)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000054> "absence_of"@en)
+
+# Object Property: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000055> (absence_of_part_of)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000055> "absence_of_part_of"@en)
+SubObjectPropertyOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000055> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000054>)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000000> (exposure duration)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000000> "exposure duration"@en)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001> (toxic effect)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001> "toxic effect"@en)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000002> (toxicity category)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000002> "toxicity category"@en)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000003> (developmental toxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000003> "developmental toxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000003> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000004> (reproductive toxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000004> "reproductive toxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000004> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000005> (lethality)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000005> "lethality"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000005> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000006> (hepatotoxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000006> "hepatotoxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000006> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000007> (inhalation toxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000007> "inhalation toxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000007> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000008> (cardiotoxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000008> "cardiotoxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000008> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000009> (neurotoxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000009> "neurotoxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000009> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000010> (reproductive toxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000010> "reproductive toxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000010> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000011> (dermal toxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000011> "dermal toxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000011> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000012> (ocular toxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000012> "ocular toxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000012> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000013> (ototoxicity)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000013> "ototoxicity"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000013> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000001>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000014> (developmental cardiac defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000014> "developmental cardiac defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000014> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015> (neural tube and axial defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015> "neural tube and axial defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000003>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> (anencephaly)
+
+AnnotationAssertion(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> "An embryonic neural tube defect resulting in the absence of major parts of the brain and skull"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> "anencephaly"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015>)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000051> <http://purl.obolibrary.org/obo/UBERON_0003128>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000054> <http://purl.obolibrary.org/obo/UBERON_0001893>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000055> <http://purl.obolibrary.org/obo/UBERON_0003128>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0002342>))
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000018> (caudal regression)
+
+AnnotationAssertion(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000018> "\"Caudal regression syndrome or sacral agenesis (or hypoplasia of the sacrum) is a congenital disorder in which there is abnormal fetal development of the lower spine—the caudal partition of the spine.\" -- wikipedia (https://en.wikipedia.org/wiki/Caudal_regression_syndrome)."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000018> "caudal regression"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000018> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000019> (craniofacial defect)
+
+AnnotationAssertion(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000019> "A birth defect of the skull and face tissue."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000019> "craniofacial defect"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000019> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000020> (limb defect)
+
+AnnotationAssertion(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000020> "An abnormality in the structure of a limb."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000020> "limb defect"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000020> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000015>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021> (congential heart defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021> "congential heart defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000003>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000022> (conotruncal defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000022> "conotruncal defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000022> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000023> (lateriality and looping)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000023> "lateriality and looping"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000023> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000024> (dextro-looped transposition of the great arteries)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000024> "dextro-looped transposition of the great arteries"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000024> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000025> (atrioventricular septal defect)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000025> "atrioventricular septal defect"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000025> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000026> (septal defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000026> "septal defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000026> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000027> (hypoplastic left heart syndrome)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000027> "hypoplastic left heart syndrome"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000027> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000028> (outflow tract defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000028> "outflow tract defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000028> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000029> (patent ductus arteriosus)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000029> "patent ductus arteriosus"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000029> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000030> (conotruncal defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000030> "conotruncal defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000030> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000031> (right-sided obstructive defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000031> "right-sided obstructive defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000031> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000032> (tricuspid atresia)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000032> "tricuspid atresia"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000032> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000033> (left-sided obstructive defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000033> "left-sided obstructive defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000033> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000034> (aortic coarctation)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000034> "aortic coarctation"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000034> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000035> (ventricular septal defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000035> "ventricular septal defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000035> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000036> (conotruncal defects)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000036> "conotruncal defects"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000036> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000038> (pulmonary valve abnormalities)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000038> "pulmonary valve abnormalities"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000038> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000039> (peripheral pulmonic stenosis)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000039> "peripheral pulmonic stenosis"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000039> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000040> (bicuspid aortic valve)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000040> "bicuspid aortic valve"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000040> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000043> (pulmonic stenosis)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000043> "pulmonic stenosis"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000043> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000044> (ebstein's anomaly)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000044> "ebstein's anomaly"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000044> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000045> (tetralogy of fallot)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000045> "tetralogy of fallot"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000045> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050> (persistent truncus arteriosis)
+
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050> "persistent truncus arteriosis"@en)
+EquivalentClasses(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000052> <http://purl.obolibrary.org/obo/UBERON_0002061>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000051> <http://purl.obolibrary.org/obo/UBERON_0002061>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000052> <http://purl.obolibrary.org/obo/UBERON_0002061>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0002342>))
+
+# Class: <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> (double outlet right ventricle)
+
+AnnotationAssertion(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000017> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> "Congential heart malformation where the aorta connects to the right ventricle rather than the left ventricle. Source: https://medlineplus.gov/ency/article/007328.htm."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> "double outlet right ventricle"@en)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> <http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000021>)
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000051> <http://purl.obolibrary.org/obo/UBERON_0000947>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> ObjectSomeValuesFrom(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000051> <http://purl.obolibrary.org/obo/UBERON_0002080>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002202> <http://purl.obolibrary.org/obo/UBERON_0002342>))
+SubClassOf(<http://erdc.dren.army.mil/el/ontologies/2017/6/toxicology#toxicology:0000000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/uberon/core#channels_from> <http://purl.obolibrary.org/obo/UBERON_0002080>))
+
+
+)
